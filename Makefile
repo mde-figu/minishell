@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: nbarreir <nbarreir@student.42sp.org.br>    +#+  +:+       +#+         #
+#    By: mde-figu <mde-figu@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2021/09/21 10:42:53 by mde-figu          #+#    #+#              #
-#    Updated: 2021/12/05 18:00:19 by nbarreir         ###   ########.fr        #
+#    Created: 2021/12/12 17:47:59 by mde-figu          #+#    #+#              #
+#    Updated: 2021/12/12 17:50:20 by mde-figu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,11 +65,11 @@ git:
 #make git m="blablabla"
 
 clean:
-		make clean -C $(LIBFT)
-		rm -f $(OBJ)
+	make clean -C $(LIBFT)
+	rm -f $(OBJ)
 
 fclean: clean
-		make fclean -C $(LIBFT)
-		rm -f $(NAME) $(OBJ)
+	make fclean -C $(LIBFT)
+	rm -f $(NAME) $(OBJ)
 
 re: fclean all

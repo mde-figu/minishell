@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cmd_for_redirect.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nbarreir <nbarreir@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: mde-figu <mde-figu@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/05 17:58:49 by nbarreir          #+#    #+#             */
-/*   Updated: 2021/12/05 17:58:51 by nbarreir         ###   ########.fr       */
+/*   Created: 2021/12/12 17:46:24 by mde-figu          #+#    #+#             */
+/*   Updated: 2021/12/12 17:46:25 by mde-figu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   array_by_key.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nbarreir <nbarreir@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: mde-figu <mde-figu@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/07 22:18:04 by nbarreir          #+#    #+#             */
-/*   Updated: 2021/11/21 02:15:05 by nbarreir         ###   ########.fr       */
+/*   Created: 2021/12/12 17:47:03 by mde-figu          #+#    #+#             */
+/*   Updated: 2021/12/12 17:47:05 by mde-figu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,4 +59,12 @@ void	modify_array_by_key(char *key, char *new_val)
 		}
 		c++;
 	}
+}
+
+void	insert_or_modify_by_key(char *key, char *new_val)
+{
+	if (search_array_by_key(key))
+		modify_array_by_key(key, new_val);
+	else
+		loop_table_n_insert(key, new_val, ENV);
 }
